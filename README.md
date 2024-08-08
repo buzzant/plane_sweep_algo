@@ -1,6 +1,7 @@
 # plane_sweep_algo
 Plane-sweep algorithm for rectangles implemented with Julia
 
+
 ## Intersections
 Finds intersections between rectangles using Plane-sweep algorithm
 
@@ -8,6 +9,7 @@ Rectangles are defined as Rect(index, l, r, b, t)
 Where l is the left-most x coordinate etc..
 
 The intersections are outputed as a list of (Rect1, Rect2, l, r, b, t) format
+
 
 ## HCG(Horizontal Constraint Graph)
 HCG is represented as a nxn matrix
